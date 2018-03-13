@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="packages.config" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.ttf" />
