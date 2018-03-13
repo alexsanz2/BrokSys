@@ -55,7 +55,7 @@
                     <nav id="nav-menu-container">
                         <ul class="nav-menu">
                             <li class="menu-active"><a href="#intro">Inicio</a></li>
-                            <li><a href="#about">Quienes somos</a></li>
+                            <li><a href="#about">¿Quienes somos?</a></li>
                             <li><a href="#services">Servicios</a></li>
                             <li><a href="#portfolio">Porta folio</a></li>
                             <li><a href="#team">Equipo</a></li>
