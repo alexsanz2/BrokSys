@@ -92,8 +92,8 @@
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
-                                        <h2>We are professional</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <h2>Somos profesionales</h2>
+                                        <p>Desarrollo de sistemas a la medida</p>
                                         <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
                                     </div>
                                 </div>
@@ -684,13 +684,11 @@
                                     <img src="img/team-1.jpg" class="img-fluid" alt=""/>
                                     <div class="member-info">
                                         <div class="member-info-content">
-                                            <h4>Walter White</h4>
-                                            <span>Chief Executive Officer</span>
+                                            <h4>Alejandro Garcia</h4>
+                                            <span>Senior Developer</span>
                                             <div class="social">
-                                                <a href=""><i class="fa fa-twitter"></i></a>
-                                                <a href=""><i class="fa fa-facebook"></i></a>
-                                                <a href=""><i class="fa fa-google-plus"></i></a>
-                                                <a href=""><i class="fa fa-linkedin"></i></a>
+                                                <a href="https://twitter.com/alejandrosanz25"><i class="fa fa-twitter"></i></a>
+                                                <a href="https://www.linkedin.com/in/alejandro-garcia-broca-53191997/"><i class="fa fa-linkedin"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -702,8 +700,8 @@
                                     <img src="img/team-2.jpg" class="img-fluid" alt=""/>
                                     <div class="member-info">
                                         <div class="member-info-content">
-                                            <h4>Sarah Jhonson</h4>
-                                            <span>Product Manager</span>
+                                            <h4>Sergio Garcia</h4>
+                                            <span>Senior Developer</span>
                                             <div class="social">
                                                 <a href=""><i class="fa fa-twitter"></i></a>
                                                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -764,8 +762,8 @@
                     <div class="container">
 
                         <div class="section-header">
-                            <h3>Contact Us</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                            <h3>Contactanos!</h3>
+                            <p>En seguida unos de nuestros especialistas en tecnologías se comunicaran con usted</p>
                         </div>
 
                         <div class="row contact-info">
@@ -773,16 +771,16 @@
                             <div class="col-md-4">
                                 <div class="contact-address">
                                     <i class="ion-ios-location-outline"></i>
-                                    <h3>Address</h3>
-                                    <address>A108 Adam Street, NY 535022, USA</address>
+                                    <h3>Dirección</h3>
+                                    <address>Verdines 4010, colinas de san Geronimo, Monterey, Nuevo León</address>
                                 </div>
                             </div>
 
                             <div class="col-md-4">
                                 <div class="contact-phone">
                                     <i class="ion-ios-telephone-outline"></i>
-                                    <h3>Phone Number</h3>
-                                    <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+                                    <h3>Número de teléfono</h3>
+                                    <p><a href="tel:+525535140429">553 514 0429</a></p>
                                 </div>
                             </div>
 
@@ -790,7 +788,7 @@
                                 <div class="contact-email">
                                     <i class="ion-ios-email-outline"></i>
                                     <h3>Email</h3>
-                                    <p><a href="mailto:info@example.com">info@example.com</a></p>
+                                    <p><a href="mailto:alexsanz2@hotmail.com">alexsanz2@hotmail.com</a></p>
                                 </div>
                             </div>
 
@@ -803,24 +801,33 @@
                             <form role="form" class="contactForm" runat="server">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:7" data-msg="Por favor ingrese más de 7 caracteres" />
                                         <div class="validation"></div>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor ingrese un correo valido" />
                                         <div class="validation"></div>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                    <div class="validation"></div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" name="subject" class="form-control" id="subject" placeholder="Asunto" data-rule="minlen:7" data-msg="Por favor ingrese más de 7 caracteres" />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="tel" class="form-control" name="email" id="telefono" placeholder="Teléfono" data-rule="tel" data-msg="Por favor ingrese un número valido" />
+                                        <div class="validation"></div>
+                                    </div>
                                 </div>
+
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Por favor escribenos sobre lo que necesitas" placeholder="Mensaje"></textarea>
                                     <div class="validation"></div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit">Send Message</button>
+                                    <%--<button type="submit">Enviar mensaje</button>--%>
+                                    <asp:Button ID="btnEnviarMensaje" Class="btn alert-warning btn-info" OnClick="btnEnviarMensaje_Click" runat="server" Text="Enviar mensaje" />
                                 </div>
                             </form>
                         </div>

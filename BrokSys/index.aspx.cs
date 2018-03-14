@@ -13,5 +13,10 @@ namespace BrokSys
         {
 
         }
+
+        protected void btnEnviarMensaje_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
