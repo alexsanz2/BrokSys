@@ -59,14 +59,14 @@
                             <li><a href="#services">Servicios</a></li>
                             <li><a href="#portfolio">Porta folio</a></li>
                             <li><a href="#team">Equipo</a></li>
-                            <li class="menu-has-children"><a href="">Drop Down</a>
+                            <%--<li class="menu-has-children"><a href="">Drop Down</a>
                                 <ul>
                                     <li><a href="#">Drop Down 1</a></li>
                                     <li><a href="#">Drop Down 3</a></li>
                                     <li><a href="#">Drop Down 4</a></li>
                                     <li><a href="#">Drop Down 5</a></li>
                                 </ul>
-                            </li>
+                            </li>--%>
                             <li><a href="#contact">Contacto</a></li>
                         </ul>
                     </nav>
@@ -92,9 +92,9 @@
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
-                                        <h2>Somos profesionales</h2>
-                                        <p>Desarrollo de sistemas a la medida</p>
-                                        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                                        <h2>Desarrollo de software a la medida</h2>
+                                        <p>En BrokSys desarrollamos software a medida. Abarcamos todo el proceso que va desde la fase de consultoría previa (estudio estratégico del proyecto) al mantenimiento evolutivo del sistema pasando por el diseño y la arquitectura, el desarrollo, la fase de pruebas, control de calidad, puesta en marcha y el soporte. Es decir, realizamos el ciclo completo de un desarrollo de software. </p>
+                                        <a href="#featured-services" class="btn-get-started scrollto">Ir</a>
                                     </div>
                                 </div>
                             </div>
@@ -105,9 +105,9 @@
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
-                                        <h2>At vero eos et accusamus</h2>
-                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                                        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                                        <h2>Nuestros desarrollos</h2>
+                                        <p>Son implementaciones con las últimas metodologías, las que más se adaptan a cada proyecto, a cada empresa y a cada cliente. Utilizamos metodologías de gestión de proyectos clásicas y también las más ágiles y modernas.</p>
+                                        <a href="#featured-services" class="btn-get-started scrollto">Ir</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,9 +118,9 @@
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
-                                        <h2>Temporibus autem quibusdam</h2>
-                                        <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                                        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                                        <h2>¿Qué es Software a medida?</h2>
+                                        <p>Se llama justamente “a medida” porque el sistema o software se adapta a los procesos de gestión que la empresa ya tiene consolidados. En el desarrollo de un sistema a medida, siempre se realiza una primera etapa de análisis, en la cual se estudian los procesos de la empresa, se determina como intervendrá el nuevo sistema en estos procesos y siempre es un muy buen momento para repensar los procesos y mejorarlos. Es el software el que se adapta a la empresa.</p>
+                                        <a href="#featured-services" class="btn-get-started scrollto">Ir</a>
                                     </div>
                                 </div>
                             </div>
@@ -131,9 +131,9 @@
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
-                                        <h2>Nam libero tempore</h2>
-                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                                        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                                        <h2>¿Cuál es la diferencia entre el software estándar y a medida?</h2>
+                                        <p>El software a medida (el que desarrollamos en Neosystems) es aquel que se diseña a medida del usuario, de la empresa y de su forma de trabajar. Es decir, busca complacer todas las necesidades y adaptarse lo mejor posible a lo que una empresa necesita. El software estándar o "enlatado", es un software genérico, que resuelve múltiples necesidades, y la empresa probablemente sólo empleará algunas. En general, es un software que no se adapta completamente al vocabulario, necesidades y funciones que necesita la empresa.</p>
+                                        <a href="#featured-services" class="btn-get-started scrollto">Ir</a>
                                     </div>
                                 </div>
                             </div>
@@ -144,9 +144,9 @@
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
-                                        <h2>Magnam aliquam quaerat</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                                        <h2>Programamos lo que esta pensando</h2>
+                                        <p>De lo más simple a lo más complejo</p>
+                                        <a href="#featured-services" class="btn-get-started scrollto">Ir</a>
                                     </div>
                                 </div>
                             </div>
@@ -179,20 +179,20 @@
 
                             <div class="col-lg-4 box">
                                 <i class="ion-ios-bookmarks-outline"></i>
-                                <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                <h4 class="title"><a href="">Contamos con</a></h4>
+                                <p class="description">El conocimiento y experiencia para crear sistemas robustos, escalables, dinámicos y adaptables, pero sobre todo, de calidad, al ser producidos por expertos en análisis y desarrollo de software para Empresas, PyMEs y particulares.</p>
                             </div>
 
                             <div class="col-lg-4 box box-bg">
                                 <i class="ion-ios-stopwatch-outline"></i>
-                                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                                <h4 class="title"><a href="">Analizamos sus necesidades</a></h4>
+                                <p class="description">A partir del análisis funcional de las necesidades de su empresa, diseñamos sistemas que aumentan la eficiencia de la gestión diaria y simplifican su control.</p>
                             </div>
 
                             <div class="col-lg-4 box">
                                 <i class="ion-ios-heart-outline"></i>
-                                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                <h4 class="title"><a href="">Servicio personalizado</a></h4>
+                                <p class="description">Nos enfocamos en cada cliente para que sean beneficiados con la solución concreta para cada uno, estudiando sus necesidades</p>
                             </div>
 
                         </div>
@@ -207,8 +207,9 @@
                     <div class="container">
 
                         <header class="section-header">
-                            <h3>About Us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3>¿Quienes somos?</h3>
+                            <p>Somos una empresa formada por expertos en el área de TI, con más de 7 años de experiencia, desarrollamos sistemas de acuerdo a sus necesidades exactas. 
+                                Nos encargamos a dar soluciones a todo tipo de problemas con el uso de la tecnología, problemas que no sabe que tiene hasta que se les da la solución. Tenemos expertos enfocados al servicio de nuestros clientes</p>
                         </header>
 
                         <div class="row about-cols">
@@ -219,9 +220,9 @@
                                         <img src="img/about-mission.jpg" alt="" class="img-fluid"/>
                                         <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                                     </div>
-                                    <h2 class="title"><a href="#">Our Mission</a></h2>
+                                    <h2 class="title"><a href="#">Misión</a></h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Nuestra misión es ofrecer servicios de alta calidad, agregando valor en proyectos de Software y soluciones integrales de Internet Estratégico, para Empresas, Pymes y Startups, potenciando la calidad de su gestión con la intención de incrementar su competitividad y resultados.
                                     </p>
                                 </div>
                             </div>
@@ -232,9 +233,9 @@
                                         <img src="img/about-plan.jpg" alt="" class="img-fluid"/>
                                         <div class="icon"><i class="ion-ios-list-outline"></i></div>
                                     </div>
-                                    <h2 class="title"><a href="#">Our Plan</a></h2>
+                                    <h2 class="title"><a href="#">Plan</a></h2>
                                     <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                        Sabemos que el éxito de nuestros clientes es también el nuestro, por eso nos involucramos a fondo con cada proyecto que nos confían. Usted podrá aprovechar nuestra amplia experiencia para mejorar o potenciar su idea inicial. Preferimos considerarnos “Socios Tecnológicos” que además del diseño y la programación, brindamos asesoramiento estratégico valioso y especial para cada proyecto.
                                     </p>
                                 </div>
                             </div>
@@ -245,9 +246,9 @@
                                         <img src="img/about-vision.jpg" alt="" class="img-fluid"/>
                                         <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                                     </div>
-                                    <h2 class="title"><a href="#">Our Vision</a></h2>
+                                    <h2 class="title"><a href="#">Visión</a></h2>
                                     <p>
-                                        Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                                        Convertirnos en una compañía de referencia en Argentina y Latinoamérica en la implementación de soluciones de software a medida de alta calidad, gracias a la actitud de nuestros profesionales y a la experiencia acumulada en estos años 
                                     </p>
                                 </div>
                             </div>
@@ -265,28 +266,28 @@
                     <div class="container">
 
                         <header class="section-header wow fadeInUp">
-                            <h3>Services</h3>
-                            <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+                            <h3>Servicios</h3>
+                            <p>Desarrollamos sistemas 100% personalizados, teniendo como prioridad sus objetivos. Especialistas en programación de plataformas y aplicaciones web autoadministrables, estables y escalables</p>
                         </header>
 
                         <div class="row">
 
                             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                                 <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                <h4 class="title"><a href="">Facturación electronica</a></h4>
+                                <p class="description">Contamos con un sistema general para llevar registros de su facturación electrónica. Las cuales son timbradas en la misma web</p>
                             </div>
                             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                                 <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-                                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                                <h4 class="title"><a href="">Desarrollo a la medida</a></h4>
+                                <p class="description">La operación de cada empresa es única y los sistemas que existen en el mercado no siempre cumplen sus necesidades.</p>
                             </div>
                             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                                 <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-                                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                <h4 class="title"><a href="">Presencia en internet</a></h4>
+                                <p class="description">La presencia en Internet es un punto importante para lograr el crecimiento de su empresa. "Preguntale a Google"</p>
                             </div>
-                            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                            <%--<div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                                 <h4 class="title"><a href="">Magni Dolores</a></h4>
                                 <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
@@ -300,7 +301,7 @@
                                 <div class="icon"><i class="ion-ios-people-outline"></i></div>
                                 <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
                                 <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                            </div>
+                            </div>--%>
 
                         </div>
 
@@ -311,23 +312,23 @@
                 <!--==========================
       Call To Action Section
     ============================-->
-                <section id="call-to-action" class="wow fadeIn">
+                <%--<section id="call-to-action" class="wow fadeIn">
                     <div class="container text-center">
                         <h3>Call To Action</h3>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <a class="cta-btn" href="#">Call To Action</a>
                     </div>
-                </section>
+                </section>--%>
                 <!-- #call-to-action -->
 
                 <!--==========================
       Skills Section
     ============================-->
-                <section id="skills">
+                <%--<section id="skills">
                     <div class="container">
 
                         <header class="section-header">
-                            <h3>Our Skills</h3>
+                            <h3>Nuestras habilidades</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
                         </header>
 
@@ -360,12 +361,12 @@
                         </div>
 
                     </div>
-                </section>
+                </section>--%>
 
                 <!--==========================
       Facts Section
     ============================-->
-                <section id="facts" class="wow fadeIn">
+                <%--<section id="facts" class="wow fadeIn">
                     <div class="container">
 
                         <header class="section-header">
@@ -402,7 +403,7 @@
                         </div>
 
                     </div>
-                </section>
+                </section>--%>
                 <!-- #facts -->
 
                 <!--==========================
@@ -412,7 +413,7 @@
                     <div class="container">
 
                         <header class="section-header">
-                            <h3 class="section-title">Our Portfolio</h3>
+                            <h3 class="section-title">Nuestros trabajos</h3>
                         </header>
 
                         <div class="row">
@@ -572,7 +573,7 @@
                 <!--==========================
       Clients Section
     ============================-->
-                <section id="clients" class="wow fadeInUp">
+                <%--<section id="clients" class="wow fadeInUp">
                     <div class="container">
 
                         <header class="section-header">
@@ -591,13 +592,13 @@
                         </div>
 
                     </div>
-                </section>
+                </section>--%>
                 <!-- #clients -->
 
                 <!--==========================
       Clients Section
     ============================-->
-                <section id="testimonials" class="section-bg wow fadeInUp">
+                <%--<section id="testimonials" class="section-bg wow fadeInUp">
                     <div class="container">
 
                         <header class="section-header">
@@ -664,7 +665,7 @@
                         </div>
 
                     </div>
-                </section>
+                </section>--%>
                 <!-- #testimonials -->
 
                 <!--==========================
@@ -673,8 +674,8 @@
                 <section id="team">
                     <div class="container">
                         <div class="section-header wow fadeInUp">
-                            <h3>Team</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                            <h3>Equipo</h3>
+                            <p>Nuestro equipo está formado por profesionales en el area de TI, con más de 7 años de experiencia en el ramo. Renovando sus habilidades en tecnología, día a día</p>
                         </div>
 
                         <div class="row">
@@ -797,8 +798,8 @@
                         <div class="form">
                             <div id="sendmessage">Your message has been sent. Thank you!</div>
                             <div id="errormessage"></div>
-                            <%--<form action="" method="post" role="form" class="contactForm" runat="server">--%>
-                            <form role="form" class="contactForm" runat="server">
+                            <form action="index.aspx" role="form">
+                            <%--<form role="form" class="contactForm" runat="server">--%>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:7" data-msg="Por favor ingrese más de 7 caracteres" />
@@ -816,7 +817,7 @@
                                         <div class="validation"></div>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="tel" class="form-control" name="email" id="telefono" placeholder="Teléfono" data-rule="tel" data-msg="Por favor ingrese un número valido" />
+                                        <input type="tel" class="form-control" name="telefono" id="telefono" placeholder="Teléfono" data-rule="tel" data-msg="Por favor ingrese un número valido" />
                                         <div class="validation"></div>
                                     </div>
                                 </div>
@@ -826,8 +827,8 @@
                                     <div class="validation"></div>
                                 </div>
                                 <div class="text-center">
-                                    <%--<button type="submit">Enviar mensaje</button>--%>
-                                    <asp:Button ID="btnEnviarMensaje" Class="btn alert-warning btn-info" OnClick="btnEnviarMensaje_Click" runat="server" Text="Enviar mensaje" />
+                                    <button type="submit">Enviar mensaje</button>
+                                    <%--<asp:Button ID="btnEnviarMensaje" Class="btn alert-warning btn-info" OnClick="btnEnviarMensaje_Click" runat="server" Text="Enviar mensaje" />--%>
                                 </div>
                             </form>
                         </div>
@@ -847,31 +848,31 @@
                         <div class="row">
 
                             <div class="col-lg-3 col-md-6 footer-info">
-                                <h3>BizPage</h3>
+                                <h3>BrokSys</h3>
                                 <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                             </div>
 
                             <div class="col-lg-3 col-md-6 footer-links">
-                                <h4>Useful Links</h4>
+                                <h4>Mapa de sitio</h4>
                                 <ul>
-                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Home</a></li>
-                                    <li><i class="ion-ios-arrow-right"></i><a href="#">About us</a></li>
-                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Services</a></li>
-                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Terms of service</a></li>
-                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Privacy policy</a></li>
+                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Inicio</a></li>
+                                    <li><i class="ion-ios-arrow-right"></i><a href="#">¿Quienes somos?</a></li>
+                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Servicios</a></li>
+                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Equipo</a></li>
+                                    <li><i class="ion-ios-arrow-right"></i><a href="#">Privacidad</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-lg-3 col-md-6 footer-contact">
-                                <h4>Contact Us</h4>
+                                <h4>Contactanos</h4>
                                 <p>
-                                    A108 Adam Street
+                                    Verdines 4010, colinas de san Geronimo
                                     <br>
-                                    New York, NY 535022<br>
-                                    United States
+                                    Monterey, Nuevo León<br>
+                                    México
                                     <br>
-                                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                                    <strong>Email:</strong> info@example.com<br>
+                                    <strong>Telefono:</strong> 553 514 0429<br>
+                                    <strong>Email:</strong> alexsanz2@hotmail.com<br>
                                 </p>
 
                                 <div class="social-links">
@@ -898,7 +899,7 @@
 
                 <div class="container">
                     <div class="copyright">
-                        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+                        &copy; Copyright <strong></strong>. All Rights Reserved
                     </div>
                     <div class="credits">
                         <!--
@@ -935,7 +936,11 @@
             <!-- Template Main Javascript File -->
             <script src="js/main.js"></script>
 
-
+            <script>
+                function enviar() {
+                    console.log("entro");
+                }
+            </script>
 
         </div>
     <%--</form>--%>

@@ -8,60 +8,54 @@ namespace BrokSys
 {
     public class Correo
     {
-        /*
-         * Cliente SMTP
-         * Gmail:  smtp.gmail.com  puerto:587
-         * Hotmail: smtp.liva.com  puerto:25
-         */
-        SmtpClient server = new SmtpClient("smtp.gmail.com", 587);
 
+        //constructor
         public Correo()
         {
-            /*
-             * Autenticacion en el Servidor
-             * Utilizaremos nuestra cuenta de correo
-             *
-             * Direccion de Correo (Gmail o Hotmail)
-             * y Contrasena correspondiente
-             */
-            server.Credentials = new System.Net.NetworkCredential("alexsanz1985@gmail.com", "cande010909GRACI?");
-            server.EnableSsl = true;
+            
         }
+        #region Enviar Correo
+        MailMessage oMensaje;
+        public string enviarCorreo(CorreoEnt correoEnt)
+        {
+            string script = "";
+            oMensaje = new MailMessage();
+            oMensaje.Subject = correoEnt.Titulo;
+            oMensaje.To.Add(new MailAddress(correoEnt.Destinatario));
+            oMensaje.Bcc.Add(new MailAddress("sergiogb11@hotmail.com"));
+            oMensaje.From = new MailAddress(correoEnt.Remitente, correoEnt.NombresApellidos, System.Text.Encoding.UTF8);
+            oMensaje.Priority = MailPriority.High;
 
-        public void MandarCorreo(MailMessage mensaje)
-        {
-            server.Send(mensaje);
-        }
-        public string prepararCorreo(string mensaje, string rutaArchivo)
-        {
-            string resultadoStr = "";
+            // Para adjuntar un archivo
+            //oMensaje.Attachments.Add(new System.Net.Mail.Attachment("C:/archivos de programas/archivo.pdf"));
+
+            if (correoEnt.RutaArchivoAdjunto != null && correoEnt.RutaArchivoAdjunto != "")
+                oMensaje.Attachments.Add(new Attachment(correoEnt.RutaArchivoAdjunto));
+
+            if (correoEnt.IsHtml)
+            {
+                oMensaje.IsBodyHtml = true;
+            }
+
+            oMensaje.Body = correoEnt.Cuerpo;
+
+            SmtpClient smtp = new SmtpClient(correoEnt.Host, correoEnt.Port);
+            smtp.Credentials = new System.Net.NetworkCredential(correoEnt.Remitente, correoEnt.PasswordAccess);
+            smtp.EnableSsl = true;
             try
             {
-                Correo Cr = new Correo();
-                MailMessage mnsj = new MailMessage();
-
-                mnsj.Subject = "Hola Mundo";
-
-                mnsj.To.Add(new MailAddress("alexsanz2@hotmail.com"));
-
-                mnsj.From = new MailAddress("alexsanz1985@gmail.com", "Alejandro Garcia");
-
-                /* Si deseamos Adjuntar algún archivo*/
-                mnsj.Attachments.Add(new Attachment(rutaArchivo));
-
-                mnsj.Body = mensaje;
-
-                /* Enviar */
-                Cr.MandarCorreo(mnsj);
-                //resultado = true;
-
-                resultadoStr = "El Mail se ha Enviado Correctamente";
+                smtp.Send(oMensaje);
             }
-            catch (Exception ex)
+            catch (SmtpException ex)
             {
-                resultadoStr = ex.ToString();
+                script = "alert('Lo sentimos ha ocurrido un error al intentar enviar el correo. Intentalo de nuevo');";
+                script = script + "window.open('Login.aspx', '_self');";
+                ApplicationException exception = new ApplicationException(ex.Message, ex);
+                return script;
             }
-            return resultadoStr;
+            script = "Rebice su correo electronico, le hemos mandado su nueva contraseña";
+            return script;
         }
+        #endregion
     }
 }
